@@ -4,7 +4,8 @@ p. Customize the output of your feeds with Textpattern tags, like any other form
 
 h2. Requirements
 
-* Textpattern 4.x.x
+* Textpattern v4.2.0 or newer.
+* PHP5
 
 h2. Usage
 
