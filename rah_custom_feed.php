@@ -1,11 +1,17 @@
-<?php	##################
-	#
-	#	rah_custom_feed-plugin for Textpattern
-	#	version 0.1
-	#	by Jukka Svahn
-	#	http://rahforum.biz
-	#
-	###################
+<?php
+
+/**
+ * Rah_custom_feed plugin for Textpattern CMS.
+ *
+ * @author Jukka Svahn
+ * @date 2008-
+ * @license GNU GPLv2
+ * @link http://rahforum.biz/plugins/rah_custom_feed
+ *
+ * Copyright (C) 2011 Jukka Svahn <http://rahforum.biz>
+ * Licensed under GNU Genral Public License version 2
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 	register_callback('rah_custom_feed','atom_entry');
 	register_callback('rah_custom_feed','rss_entry');
