@@ -16,11 +16,18 @@
 		}
 	}
 
+/**
+ * Modifies feeds excerpt and body content
+ */
+
 	function rah_custom_feed() {
-		global $thisarticle;	
-		$form = fetch_form('rah_feed_body');
-		$form = parse($form);
-		$thisarticle['excerpt'] = $form;
-		$thisarticle['body'] = $form;
+		global $thisarticle;
+		@$form = fetch_form('rah_feed_body');
+		
+		if($form !== '') {
+			$form = parse($form);
+			$thisarticle['excerpt'] = $form;
+			$thisarticle['body'] = $form;
+		}
 	}
 ?>
