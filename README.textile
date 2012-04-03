@@ -2,33 +2,29 @@ h1. rah_custom_feed
 
 p. Customize the output of your feeds with Textpattern tags, like any other form.
 
-* Version: 0.2
-* Updated: 2008/01/22 7:15 AM GMT+2
-
-h3. Table of Contents
-
-* "List of features":#list-of-features
-* "Requirements":#requirements
-* "Installation and usage":#installation-and-usage
-* "Example":#example
-
-h3(#list-of-features). List of features
-
-* Customize feed's body input
-
-h3(#requirements). Requirements
+h2. Requirements
 
 * Textpattern 4.x.x
 
-h3(#installation-and-usage). Usage
+h2. Usage
 
-p. The plugin uses form called @rah_feed_body@ customize feeds output. The automatic setup should have created it, but if it didn't then create the form, called @rah_feed_body@. This form will hold your rss- and atom-feed contents, or so said the feeds body content. You can use txp-tags as the form will work like any other form.
+p. The plugin uses a form called @rah_feed_body@ customize feeds output. The automatic setup should have created it, but if it didn't, you can create the form as normal. This form will hold your RSS and Atom feed's item body contents. You can use Textpattern tags, including individual article tags, as you would with a normal page template.
 
-h3(#example). Example
+h2. Example
 
-p. rah_feed_body-form's content:
+p. A form named @rah_feed_body@ can be used to customize feed items' output. For example, the form markup could look something like this.
 
 bc. <txp:excerpt />
 <p><txp:permlink>Read more...</txp:permlink></p>
 
-p. The code outputs excerpt and a read more-link.
+p. Snippet above outputs an excerpt and a read more link.
+
+h2. Changelog
+
+h3. Version 0.2 - upcoming
+
+* Improved help file.
+
+h3. Version 0.1 - 2008/01/22
+
+* Initial release.
