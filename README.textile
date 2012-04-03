@@ -25,6 +25,7 @@ h2. Changelog
 h3. Version 0.2 - upcoming
 
 * Improved help file.
+* Use plugin-lifecycle callbacks to remove the added form during uninstall.
 
 h3. Version 0.1 - 2008/01/22
 
