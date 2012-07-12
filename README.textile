@@ -9,11 +9,11 @@ h2. Requirements
 
 h2. Usage
 
-p. The plugin uses a form called @rah_feed_body@ customize feeds output. The automatic setup should have created it, but if it didn't, you can create the form as normal. This form will hold your RSS and Atom feed's item body contents. You can use Textpattern tags, including individual article tags, as you would with a normal page template.
+p. The plugin uses a "Form partial":http://textpattern.net/wiki/index.php?title=Forms called @rah_feed_body@ customize feeds output. The automatic setup should have created it, but if it didn't, you can create the form as normal. This form will hold your RSS and Atom feed's item body contents. You can use Textpattern tags, including individual article tags, as you would with a normal page template.
 
 h2. Example
 
-p. A form named @rah_feed_body@ can be used to customize feed items' output. For example, the form markup could look something like this.
+p. A form partial named @rah_feed_body@ can be used to customize feed items' output. For example, the form markup could look something like this:
 
 bc. <txp:excerpt />
 <p><txp:permlink>Read more...</txp:permlink></p>
@@ -26,6 +26,7 @@ h3. Version 0.2 - upcoming
 
 * Improved help file.
 * Use plugin-lifecycle callbacks to remove the added form during uninstall.
+* Now requires PHP5 or newer.
 
 h3. Version 0.1 - 2008/01/22
 
