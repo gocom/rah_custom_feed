@@ -22,7 +22,7 @@ p. Snippet above outputs an excerpt and a read more link.
 
 h2. Changelog
 
-h3. Version 0.2 - upcoming
+h3. Version 0.2 - 2012/07/12
 
 * Improved help file.
 * Use plugin-lifecycle callbacks to remove the added form during uninstall.
