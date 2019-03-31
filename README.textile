@@ -29,7 +29,7 @@ bc. <txp:permlink>
 
 h2. Changelog
 
-h3. Version 0.3.0 - upcoming
+h3. Version 0.3.0 - 2019/03/31
 
 * Released as a Composer package.
 * Now requires Textpattern 4.7.0 or newer.
