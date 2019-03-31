@@ -27,9 +27,14 @@
 final class Rah_Custom_Feed
 {
     /**
+     * Form name.
+     */
+    private const FORM_NAME = 'rah_feed_body';
+
+    /**
      * Constructor.
      */
-    public function __construct()
+    public function __construct(): void
     {
         register_callback([$this, 'install'], 'plugin_lifecycle.rah_custom_feed', 'installed');
         register_callback([$this, 'item'], 'atom_entry');
@@ -39,23 +44,23 @@ final class Rah_Custom_Feed
     /**
      * Installer.
      */
-    public function install()
+    public function install(): void
     {
-        create_form('rah_feed_body', 'misc', '');
+        create_form(self::FORM_NAME, 'misc', '');
     }
 
     /**
      * Invoked on every feed item.
      */
-    public function item()
+    public function item(): void
     {
         global $thisarticle;
 
-        if (fetch_form('rah_feed_body') === false) {
+        if (fetch_form(self::FORM_NAME) === false) {
             return;
         }
 
-        $form = parse_form('rah_feed_body');
+        $form = parse_form(self::FORM_NAME);
         $thisarticle['excerpt'] = $form;
         $thisarticle['body'] = $form;
     }

@@ -17,7 +17,7 @@
         "source": "https://github.com/gocom/rah_custom_feed"
     },
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.1.0",
         "textpattern/lock": ">=4.7.0",
         "textpattern/installer": "*"
     },
