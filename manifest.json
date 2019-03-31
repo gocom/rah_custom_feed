@@ -1,12 +1,12 @@
 {
     "name": "rah_custom_feed",
     "description": "Customize feeds' body content",
-    "version": "0.4.0",
-    "type": 3,
+    "version": "0.2.0",
+    "type": 1,
     "author": "Jukka Svahn",
     "author_uri": "https://github.com/gocom/rah_custom_feed",
     "order": 5,
-    "flags": 3,
+    "flags": 2,
     "help": {"file" : ["./README.textile"]},
     "code": {"file" : [
         "./src/Rah/Custom/Feed.php",
