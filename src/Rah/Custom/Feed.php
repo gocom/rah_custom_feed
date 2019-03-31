@@ -34,7 +34,7 @@ final class Rah_Custom_Feed
     /**
      * Constructor.
      */
-    public function __construct(): void
+    public function __construct()
     {
         register_callback([$this, 'install'], 'plugin_lifecycle.rah_custom_feed', 'installed');
         register_callback([$this, 'item'], 'atom_entry');
