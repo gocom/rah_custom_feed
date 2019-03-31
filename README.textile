@@ -1,6 +1,6 @@
 h1. rah_custom_feed
 
-"Packagist":https://packagist.org/packages/rah/rah_custom_feed | "Issues":https://github.com/gocom/rah_custom_feed
+"Packagist":https://packagist.org/packages/rah/rah_custom_feed | "Issues":https://github.com/gocom/rah_custom_feed/issues
 
 "Textpattern CMS":https://textpattern.com plugin to customize the output of your feeds with Textpattern template tags, through a "Form partial":https://docs.textpattern.com/administration/forms-panel.
 
