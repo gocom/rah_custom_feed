@@ -1,15 +1,18 @@
 h1. rah_custom_feed
 
-p. Customize the output of your feeds with Textpattern tags, like any other form.
+"Packagist":https://packagist.org/packages/rah/rah_custom_feed | "Issues":https://github.com/gocom/rah_custom_feed
 
-h2. Requirements
+"Textpattern CMS":https://textpattern.com plugin to customize the output of your feeds with Textpattern template tags, through a "Form partial":https://docs.textpattern.com/administration/forms-panel.
 
-* Textpattern v4.2.0 or newer.
-* PHP5
+h2. Install
+
+Using "Composer":https://getcomposer.org:
+
+bc. $ composer require rah/rah_custom_feed
 
 h2. Usage
 
-p. The plugin uses a "Form partial":http://textpattern.net/wiki/index.php?title=Forms called @rah_feed_body@ customize feeds output. The automatic setup should have created it, but if it didn't, you can create the form as normal. This form will hold your RSS and Atom feed's item body contents. You can use Textpattern tags, including individual article tags, as you would with a normal page template.
+The plugin uses a "form partial":http://textpattern.net/wiki/index.php?title=Forms called @rah_feed_body@ customize feeds output. The automatic setup should have created it, but if it didn't, you can create the form as normal. This form will hold your RSS and Atom feed's item body contents. You can use Textpattern tags, including individual article tags, as you would with a normal page template.
 
 h2. Example
 
@@ -18,9 +21,13 @@ p. A form partial named @rah_feed_body@ can be used to customize feed items' out
 bc. <txp:excerpt />
 <p><txp:permlink>Read more...</txp:permlink></p>
 
-p. Snippet above outputs an excerpt and a read more link.
+p. The snippet above outputs an excerpt and a read more link.
 
 h2. Changelog
+
+h3. Version 0.3.0 - upcoming
+
+* Released as a Composer package.
 
 h3. Version 0.2 - 2012/07/12
 
