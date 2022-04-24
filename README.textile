@@ -1,6 +1,6 @@
 h1. rah_custom_feed
 
-"Packagist":https://packagist.org/packages/rah/rah_custom_feed | "Issues":https://github.com/gocom/rah_custom_feed/issues
+"Download":https://github.com/gocom/rah_custom_feed/releases | "Packagist":https://packagist.org/packages/rah/rah_custom_feed | "Issues":https://github.com/gocom/rah_custom_feed/issues
 
 "Textpattern CMS":https://textpattern.com plugin that can be used to customize the output of RSS and Atom feeds with Textpattern template tags through a "form partial":https://docs.textpattern.com/administration/forms-panel. A form partial named @rah_feed_body@ is used to set a feed item's body contents, allowing the use of article-context template tags like with any other template.
 
@@ -9,6 +9,8 @@ h2. Install
 Using "Composer":https://getcomposer.org:
 
 bc. $ composer require rah/rah_custom_feed
+
+Or "download":https://github.com/gocom/rah_custom_feed/releases an installer package.
 
 h2. Examples
 
